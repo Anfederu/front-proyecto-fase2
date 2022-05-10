@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/pacient.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Patient Eligibility
+        </a>
+    </nav>
+    <form>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Study</label>
+            <input id="el-study" type="text" class="form-control">
+
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Condition</label>
+            <input id="el-condition" type="text" class="form-control">
+        </div>
+        <div id="select">
+            <p>
+                <label for="exampleInputPassword1">Modelo a seleciconar</label>
+            </p>
+            <select id="el-selectModel" class="form-select" aria-label="Default select example">
+                <option selected>Abra el menú para seleciconar el modelo</option>
+                <option value="1">Modelo de regresión lineal</option>
+                <option value="2">Naive Bayes</option>
+                <option value="3">Maquina de vectores</option>
+            </select>
+        </div>
+
+        <button id="submitBtn" class="btn btn-primary">Submit</button>
+
+    </form>
+</body>
+
+</html>
