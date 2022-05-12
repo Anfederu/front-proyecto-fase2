@@ -65,8 +65,7 @@ function renderResults(results) {
 
 
 
-
-    if (results[0].includes("[0]")) {
+    if (results[0].includes("Sí")) {
         resultado_el.textContent = "✓"
         resDes_el.textContent = `De acuerdo a los datos del paciente, este SÍ es apto para el tratamiento: ${results}`
 
